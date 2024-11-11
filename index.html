@@ -32,25 +32,38 @@
             display: flex;
             justify-content: space-around;
             width: 80%;
-        }
-        .bdy{
+        }.bdy {
             width: 100%;
             height: calc(100vh - 100px);
+            display: flex;
             align-items: center;
             justify-content: center;
-            display: flex;
-            background-image: url('https://images.app.goo.gl/qLehzho3bKZRqz988');
+            background-image: url('https://mediaim.expedia.com/destination/1/0feb959d4ca814764d27b2e87d19c026.jpg');
+            background-size: cover; 
+            background-position: center; 
+            background-repeat: no-repeat; 
         }
+
         input{
             padding: 10px;
             width: 300px;
         }
         .allct{
-            width: 100%;
+            width: 90%;
             display: flex;
             flex-direction: column;
             padding: 10px;
+            background-color: transparent;
         }
+        button{
+            padding: 4px 8px 4px 8px;
+            background-color: #4B4890  ;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        
     </style>
 </head>
 <body>
@@ -72,8 +85,8 @@
     </div>
     <div class="bdy">
         <div style="display: flex; flex-direction: column; width: 85%;">
-            <h1>Alles gut, du buchst bei feWo-direkt</h1>
-            <div style="border-radius: 10px; padding: 16px; width: -100%; justify-content: space-around; display: flex; flex-direction: row; background-color: #F3E8E6  ;">
+            <h1 style="font-size: 30px; color: white;">Alles gut, du buchst bei feWo-direkt</h1>
+            <div style="border-radius: 10px; padding: 16px; width: -100%; justify-content: space-around; display: flex; flex-direction: row; background-color: white  ;">
                 <div style="border: 1px solid black; padding: 8px; outline-color: 2px solid blue; border-radius: 10px;">
                     <input 
                     placeholder="Wo soll's hingehen?"
@@ -89,12 +102,13 @@
                     placeholder="2 Reisende"
                     />
                 </div>
+                <button>Suchen</button>
             </div>
         </div>
     </div>
     <div class="allct">
-        <div style="width: 85%; border-radius: 10px; align-items: center; justify-content: center; background-color: #223FC2  ;">
-            <div style="display: flex; flex-direction: row; gap: 10px;">
+        <div style=" width: 100%; border-radius: 10px; align-items: center; justify-content: center; align-self: center; background-color: #223FC2  ;">
+            <div style="display: flex; flex-direction: row; align-items: center;  gap: 10px;">
                 <p>Melde dich an, um deine Favoriten zu speichern und mit der Planung deiner nächsten Reise loszulegen.</p>
             </div>
         </div>
@@ -102,8 +116,8 @@
 
         <div style="display: flex; flex-wrap: wrap;">
 
-            <div style="display: flex; width: 20%; height: 200px; flex-direction: column; border-radius: 10px; border: 1px solid #F3F3F3  ;">
-                <img src='https://images.app.goo.gl/qLehzho3bKZRqz988'>
+            <div style="display: flex; width: 20%; height: 210px; flex-direction: column; border-radius: 10px; border: 1px solid #F3F3F3  ;">
+                <img src='https://mediaim.expedia.com/destination/1/0feb959d4ca814764d27b2e87d19c026.jpg' alt="Image">
                 <p>Kigali</p>
             </div>
         </div>
